@@ -6,7 +6,9 @@
 ##
 ## If you found this code useful, please use the citation below:
 ## 
-## 
+## Hoffman, A.M., Smith, M.D., 2018. Thinking inside the Box: Tissue Culture for Plant 
+## Propagation in a Key Ecological Species, Andropogon gerardii. Am. J. Plant Sci. 09, 1987–2003. 
+## https://doi.org/10.4236/ajps.2018.910144
 ##
 ###########################################################################################
 
