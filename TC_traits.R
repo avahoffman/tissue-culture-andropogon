@@ -12,7 +12,7 @@
 ##
 ###########################################################################################
 
-wd <- "/Users/avahoffman/Dropbox/Research/Tissue\ Culture/AJPS"
+wd <- "/Users/avahoffman/Dropbox/Research/Tissue\ Culture/tissue-culture-andropogon"
 setwd(wd)
 
 ###########################################################################################
@@ -23,7 +23,7 @@ library(ggplot2)
 library(cowplot)
 #library(multcomp)
 library(viridis)
-library(mass)
+library(MASS)
 
 ###########################################################################################
 
@@ -75,7 +75,7 @@ plot3=ggplot(aes(y = til, x = factor(geno), color=geno), data = TCG) +
   stat_summary(fun.data = min.mean.sd.max, geom = "boxplot") +
   geom_jitter(size=1.0)
    
-pdf(file="fig3.pdf",height=7,width=3)
+#pdf(file="fig3.pdf",height=7,width=3)
 grid=plot_grid( plot1,plot2,plot3,
                    align = 'v',
                    labels = c("(a)", "(b)", "(c)"),
@@ -84,7 +84,8 @@ grid=plot_grid( plot1,plot2,plot3,
                    nrow = 3
 )
 plot_grid(grid)
-dev.off()
+ggsave(file="fig3.jpg",height=7,width=3)
+#dev.off()
 
 #########################
 #
