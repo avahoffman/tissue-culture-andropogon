@@ -1,5 +1,5 @@
 # tissue-culture-andropogon
-### Code to accompany tissue culture manuscript
+### Code to accompany *Thinking inside the Box: Tissue Culture for Plant Propagation in a Key Ecological Species,* Andropogon gerardii
 
 ### Abstract  
   
