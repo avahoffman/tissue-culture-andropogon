@@ -1,6 +1,8 @@
 # tissue-culture-andropogon
 ### Code to accompany *Thinking inside the Box: Tissue Culture for Plant Propagation in a Key Ecological Species,* Andropogon gerardii
 
+[![DOI](https://zenodo.org/badge/doi/10.4236/ajps.2018.910144.svg)](https://doi.org/10.4236/ajps.2018.910144)
+
 ### Abstract  
   
 Intraspecific diversity has widespread effects on ecological communities and ecosystems. To elucidate the mechanisms underlying these effects, manipulative studies require a rigorous and efficient empirical approach. Yet, replicating sufficient numbers of genetically identical individuals remains a challenge. As a result, we are limited in our understanding of the mechanisms underlying the ecological effects of intraspecific diversity. In contrast, large sample sizes are routinely produced in horticultural research using micropropagation, or tissue culture.  
